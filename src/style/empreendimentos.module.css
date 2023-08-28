@@ -1,0 +1,73 @@
+#empreendimentos {
+    --total-brand: 5;
+    --logo-width: 15rem;
+    --total-logo-width: calc(var(--total-brand) * var(--logo-width) * 2);
+    --animation-duration: calc(var(--total-brand) * 1.5s);
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(133, 130, 146);
+    display: grid;
+    place-items: center;
+}
+
+.slider {
+    width: 100vw;
+    height: 12rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slider::before,
+.slider::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: var(--logo-width);
+}
+
+.slider::before {
+    left: 0;
+    background: linear-gradient(to right, #fff 0%, #fff0 100%);
+}
+
+.slider::after {
+    right: 0;
+    background: linear-gradient(to left, #fff 0%, #fff0 100%);
+}
+
+.slider ul.brands {
+    list-style: none;
+    width: var(--total-logo-width);
+    display: flex;
+    animation: slideLeft var(--animation-duration) linear infinite;
+}
+
+.slider:hover ul.brands {
+    animation-play-state: paused;
+}
+
+@keyframes slideLeft {
+    100% {
+        transform: translateX(calc(-100% / 2));
+    }
+}
+
+ul.brands li.brand_logo {
+    width: var(--logo-width);
+    font-size: 2rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+ul.brands li.brand_logo img {
+    width: var(--logo-width);
+}
+
+ul.brands li.brand_logo img:hover {
+    width: calc(var(--logo-width) * 1.1);
+    transition: 0.3s;
+}

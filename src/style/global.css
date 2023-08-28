@@ -187,16 +187,93 @@ span.navbar-text {
   height: 100vh;
 }
 
-/* PDCA */
 
-#pdca {
-  background-color: #76AE82;
-  height: 110vh;
-}
+/* PDCA e EQUIPE */
 
-/* EQUIPE */
-
+#pdca,
 #equipe {
   background-color: var(--Background);
+}
+
+#pdca img,
+#equipe img {
+  height: 100%;
+}
+
+
+/* EMPREENDIMENTOS */
+
+#empreendimentos {
+  --total-brand: 5;
+  --logo-width: 16rem;
+  --total-logo-width: calc(var(--total-brand) * var(--logo-width) * 2);
+  --animation-duration: calc(var(--total-brand) * 1.5s);
+  background-color: var(--Background);
   height: 100vh;
+}
+
+div .slider .row {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.slider {
+  width: 100vw;
+  height: 12rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider::before,
+.slider::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: var(--logo-width);
+}
+
+.slider::before {
+  left: 0;
+  background: linear-gradient(to right, var(--Background) 0%, #fff0 100%);
+}
+
+.slider::after {
+  right: 0;
+  background: linear-gradient(to left, var(--Background) 0%, #fff0 100%);
+}
+
+.slider ul.brands {
+  list-style: none;
+  width: var(--total-logo-width);
+  display: flex;
+  animation: slideLeft var(--animation-duration) linear infinite;
+}
+
+.slider:hover ul.brands {
+  animation-play-state: paused;
+}
+
+@keyframes slideLeft {
+  100% {
+    transform: translateX(calc(-100% / 2));
+  }
+}
+
+ul.brands li.brand-logo {
+  width: var(--logo-width);
+  font-size: 2rem;
+  text-align: center;
+  margin: 5rem;
+}
+
+ul.brands li.brand-logo img {
+  width: var(--logo-width);
+}
+
+ul.brands li.brand-logo img:hover {
+  width: calc(var(--logo-width) * 1.1);
+  transition: 0.3s;
 }
