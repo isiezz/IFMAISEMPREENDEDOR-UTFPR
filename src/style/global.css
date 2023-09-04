@@ -27,6 +27,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
+  overflow-x: hidden;
 }
 
 h1,
@@ -94,6 +95,14 @@ p.danger {
   font-style: normal;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.row p {
+  color: #3A3A3A;
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 2rem;
 }
 
 div.col-md-auto {
@@ -187,6 +196,26 @@ span.navbar-text {
   height: 100vh;
 }
 
+#sobre p {
+  text-indent: 2rem;
+  margin: 2rem;
+
+}
+
+#sobre p ul {
+  text-indent: 0;
+  list-style-position: inside;
+}
+
+#sobre p ul li {
+  line-height: 2.5rem;
+  margin-right: 2em;
+}
+
+#sobre div.row:nth-of-type(2) div.col:nth-of-type(2) {
+  text-align: right;
+}
+
 
 /* PDCA e EQUIPE */
 
@@ -209,7 +238,7 @@ span.navbar-text {
   --total-logo-width: calc(var(--total-brand) * var(--logo-width) * 2);
   --animation-duration: calc(var(--total-brand) * 1.5s);
   background-color: var(--Background);
-  height: 100vh;
+  height: 50vh;
 }
 
 div .slider .row {
@@ -276,4 +305,38 @@ ul.brands li.brand-logo img {
 ul.brands li.brand-logo img:hover {
   width: calc(var(--logo-width) * 1.1);
   transition: 0.3s;
+}
+
+
+/* NOTICIAS */
+
+#noticias {
+  background-color: var(--Background);
+  height: 80vh;
+}
+
+#noticias div.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 20px rgba(69, 69, 69, 0.1);
+}
+
+#noticias h2 {
+  color: var(--Ship-Gray);
+  font-family: Bebas Neue;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 5rem;
+  text-align: center;
+}
+
+#noticias p{
+  color: #4b4b4b;
+  font-family: 'Calibri';
+  font-size: 26px;
+  font-weight: 400;
+  font-style: normal;
+  text-indent: 2rem;
+  line-height: 2rem;
 }

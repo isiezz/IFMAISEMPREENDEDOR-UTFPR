@@ -6,6 +6,7 @@ import { Sobre } from "./pages/sobre";
 import { PDCA } from "./pages/pdca";
 import { Equipe } from "./pages/equipe";
 import { Empreendimentos } from "./pages/empreendimentos";
+import { Noticias } from "./pages/noticias";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <PDCA />
         <Equipe />
         <Empreendimentos />
+        <Noticias />
       </div>
     </html>
   );
