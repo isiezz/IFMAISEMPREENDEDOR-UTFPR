@@ -1,5 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 import NewHappen from "../img/New Happen.png";
+import Quintal from "../img/Quintal.png";
+import Yogin from "../img/Yogin Life.png";
+import Mecanica from "../img/Mecanica Andrade.png";
+import Caule from "../img/Caule.png";
+
+
 // import styles from "../style/empreendimentos.module.css";
 
 export const Empreendimentos = () => {
@@ -18,11 +24,11 @@ export const Empreendimentos = () => {
           </Row>
             <Row className="slider">
                 <ul className="brands">
-                    <li className="brand-logo"><img src={NewHappen} /></li>
-                    <li className="brand-logo"><img src={NewHappen} /></li>
-                    <li className="brand-logo"><img src={NewHappen} /></li>
-                    <li className="brand-logo"><img src={NewHappen} /></li>
-                    <li className="brand-logo"><img src={NewHappen} /></li>
+                  <li className="brand-logo"><img src={NewHappen} /></li>
+                    <li className="brand-logo"><img src={Quintal} /></li>
+                    <li className="brand-logo"><img src={Yogin} /></li>
+                    <li className="brand-logo"><img src={Mecanica} /></li>
+                    <li className="brand-logo"><img src={Caule} /></li>
                 </ul>
             </Row>
         </Container>

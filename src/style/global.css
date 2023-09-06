@@ -90,7 +90,7 @@ p.danger {
 .row h1 {
   color: var(--Ship-Gray);
   font-family: Bebas Neue;
-  font-size: 96px;
+  font-size: 6rem;
   font-weight: 400;
   font-style: normal;
   line-height: normal;
@@ -100,7 +100,7 @@ p.danger {
 .row p {
   color: #3A3A3A;
   font-family: Arial;
-  font-size: 26px;
+  font-size: 1.5rem;
   font-weight: bold;
   line-height: 2rem;
 }
@@ -173,20 +173,14 @@ span.navbar-text {
   align-items: center;
   background-color: var(--Background);
   height: 100vh;
-
-  .apoio {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-
-    .utfpr-logo,
-    .iut-logo {
-      padding: 15px;
-      margin-right: 25px;
-    }
-  }
-
 }
+
+#home div.apoio.row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
 
 
 /* SOBRE */
@@ -331,7 +325,7 @@ ul.brands li.brand-logo img:hover {
   text-align: center;
 }
 
-#noticias p{
+#noticias p {
   color: #4b4b4b;
   font-family: 'Calibri';
   font-size: 26px;

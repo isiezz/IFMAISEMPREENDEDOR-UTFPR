@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import IFMAIS from "../img/IFMAIS logo.png";
 import UTFPR from "../img/UTFPR logo.png";
-import IUT from "../img/IUT logo.png";
+import Sprint from "../img/Sprint CM.png";
 
 export const Home = () => {
   return (
@@ -14,18 +14,18 @@ export const Home = () => {
               <img src={IFMAIS} alt="banner" />
             </div>
           </Col>
-          <div className="apoio">
+          <Row className="apoio">
             <Col lg={1}>
               <div className="utfpr-logo">
                 <img src={UTFPR} alt="utfpr-logo" />
               </div>
             </Col>
             <Col lg={1}>
-              <div className="iut-logo">
-                <img src={IUT} alt="iut-logo" />
+              <div className="sprint-logo">
+                <img src={Sprint} alt="sprint-logo" />
               </div>
             </Col>
-          </div>
+          </Row>
         </Row>
       </Container>
     </section>
