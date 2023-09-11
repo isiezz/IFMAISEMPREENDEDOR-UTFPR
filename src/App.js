@@ -7,6 +7,7 @@ import { PDCA } from "./pages/pdca";
 import { Equipe } from "./pages/equipe";
 import { Empreendimentos } from "./pages/empreendimentos";
 import { Noticias } from "./pages/noticias";
+import { Incubadora } from "./pages/incubadora";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Equipe />
         <Empreendimentos />
         <Noticias />
+        <Incubadora />
       </div>
     </html>
   );

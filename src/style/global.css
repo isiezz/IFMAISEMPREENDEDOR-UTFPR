@@ -190,26 +190,6 @@ span.navbar-text {
   height: 100vh;
 }
 
-#sobre p {
-  text-indent: 2rem;
-  margin: 2rem;
-
-}
-
-#sobre p ul {
-  text-indent: 0;
-  list-style-position: inside;
-}
-
-#sobre p ul li {
-  line-height: 2.5rem;
-  margin-right: 2em;
-}
-
-#sobre div.row:nth-of-type(2) div.col:nth-of-type(2) {
-  text-align: right;
-}
-
 
 /* PDCA e EQUIPE */
 
@@ -328,9 +308,27 @@ ul.brands li.brand-logo img:hover {
 #noticias p {
   color: #4b4b4b;
   font-family: 'Calibri';
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   font-style: normal;
   text-indent: 2rem;
   line-height: 2rem;
+}
+
+#noticias h3 {
+  color: #4b4b4b;
+  font-family: 'Calibri';
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: normal;
+  text-align: end;
+  margin: 20px 0;
+}
+
+
+/* INCUBADORA */
+
+#incubadora {
+  background-color: var(--Background);
+  height: 100vh;
 }

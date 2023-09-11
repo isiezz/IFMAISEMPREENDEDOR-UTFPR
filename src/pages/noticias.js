@@ -11,6 +11,12 @@ export const Noticias = () => {
               <p>A Feira do Empreendedor 2023 em Curitiba, promovida pelo Sebrae/PR de 14 a 17 de setembro, é um evento essencial para empreendedores. Oferece capacitação abrangente em áreas como marketing, finanças e liderança, com palestras de especialistas, incluindo Zico. Haverá experiências interativas em lojas conceito, desafios empresariais e oportunidades de networking.</p>
               <p>Os participantes podem simplificar o planejamento estratégico com o "Canvas Express". Mais de 600 empresas apresentarão produtos, incluindo inovações como um equipamento de hidrogênio para carros. O evento oferece rodadas de negócios para pequenas empresas locais. A Feira do Empreendedor 2023 é gratuita e acessível a todos os interessados em impulsionar seus negócios.</p>
               <p>Não perca esta oportunidade de aprendizado e crescimento!</p>
+
+              <h3>endereco 123 Curitiba, PR</h3>
+
+              <div className="text-center">
+                <button type="button" class="btn btn-light">saiba mais</button>
+              </div>
             </Col>
             <Col lg={4}>
               <img src={noticia} />
