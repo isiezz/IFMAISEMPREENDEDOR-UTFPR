@@ -7,15 +7,17 @@ export const Noticias = () => {
       <Container>
         <Row>
             <Col lg={8}>
-              <h2>Noticias</h2>
-              <p>A Feira do Empreendedor 2023 em Curitiba, promovida pelo Sebrae/PR de 14 a 17 de setembro, é um evento essencial para empreendedores. Oferece capacitação abrangente em áreas como marketing, finanças e liderança, com palestras de especialistas, incluindo Zico. Haverá experiências interativas em lojas conceito, desafios empresariais e oportunidades de networking.</p>
-              <p>Os participantes podem simplificar o planejamento estratégico com o "Canvas Express". Mais de 600 empresas apresentarão produtos, incluindo inovações como um equipamento de hidrogênio para carros. O evento oferece rodadas de negócios para pequenas empresas locais. A Feira do Empreendedor 2023 é gratuita e acessível a todos os interessados em impulsionar seus negócios.</p>
-              <p>Não perca esta oportunidade de aprendizado e crescimento!</p>
+              <h2>Feira do Empreendedor 2023 sediada em Curitiba</h2>
+              <p>A Feira do Empreendedor 2023 em Curitiba, promovida pelo Sebrae/PR de 14 a 17 de setembro, é um evento essencial para empreendedores. Oferece capacitação abrangente em áreas como marketing, finanças e liderança, com palestras de especialistas, incluindo o ex-jogador de futebol Zico. Há experiências em lojas conceito, desafios empresariais e networking.</p>
+              <p>Mais de 600 empresas apresentarão produtos, incluindo inovações como um equipamento de hidrogênio para carros. Haverá quatro lojas interativas: cafeteria, moda, petshop e salão de beleza, com visitas guiadas para entender a operação. O evento oferece rodadas de negócios para pequenas empresas locais.</p>
+              <p>Não perca essa oportunidade de aprendizado e crescimento!</p>
 
-              <h3>endereco 123 Curitiba, PR</h3>
+              <h3>quinta-feira (14) a domingo (17), das 14h às 22h, no Viasoft Experience, em Curitiba</h3>
 
               <div className="text-center">
-                <button type="button" class="btn btn-light">saiba mais</button>
+                <a href="https://www.sebraepr.com.br/feiradoempreendedor/" target="_blank">
+                  <button type="button" class="btn btn-light">saiba mais</button>
+                </a>
               </div>
             </Col>
             <Col lg={4}>

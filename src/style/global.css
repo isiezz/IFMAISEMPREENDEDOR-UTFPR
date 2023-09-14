@@ -299,20 +299,10 @@ ul.brands li.brand-logo img:hover {
 #noticias h2 {
   color: var(--Ship-Gray);
   font-family: Bebas Neue;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 400;
   line-height: 5rem;
   text-align: center;
-}
-
-#noticias p {
-  color: #4b4b4b;
-  font-family: 'Calibri';
-  font-size: 24px;
-  font-weight: 400;
-  font-style: normal;
-  text-indent: 2rem;
-  line-height: 2rem;
 }
 
 #noticias h3 {
@@ -325,10 +315,20 @@ ul.brands li.brand-logo img:hover {
   margin: 20px 0;
 }
 
+#noticias p {
+  color: #4b4b4b;
+  font-family: 'Calibri';
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-style: normal;
+  text-indent: 2rem;
+  line-height: 2rem;
+}
+
 
 /* INCUBADORA */
 
 #incubadora {
   background-color: var(--Background);
-  height: 100vh;
+  height: 1vh;
 }
