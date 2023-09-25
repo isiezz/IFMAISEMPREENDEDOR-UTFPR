@@ -3,13 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import IFMAIS from "../img/IFMAIS logo.png";
 import UTFPR from "../img/UTFPR logo.png";
 import Sprint from "../img/Sprint CM.png";
+import Equipe from "../img/equipe.png";
 
 export const Home = () => {
   return (
     <section className="home" id="home">
       <Container fluid>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={8} xl={7}>
             <div className="banner">
               <img src={IFMAIS} alt="banner" />
             </div>
@@ -28,6 +29,11 @@ export const Home = () => {
           </Row>
         </Row>
       </Container>
+
+      <div className="equipe">
+        <img src={Equipe} alt="equipe" />
+      </div>
+
     </section>
   );
 };

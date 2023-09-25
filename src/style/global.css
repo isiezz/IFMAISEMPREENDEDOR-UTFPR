@@ -175,10 +175,26 @@ span.navbar-text {
   height: 100vh;
 }
 
+#home div.banner {
+  position: relative;
+  z-index: 1;
+}
+
 #home div.apoio.row {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  z-index: 1;
+}
+
+#home .equipe {
+  height: 80vh;
+  opacity: 90%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
 }
 
 
@@ -331,4 +347,35 @@ ul.brands li.brand-logo img:hover {
 #incubadora {
   background-color: var(--Background);
   height: 1vh;
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+  #home div.equipe {
+    height: 65vh;
+    top: 5em;
+  }
+
+  #sobre {
+    height: auto;
+  }
+
+  #noticias {
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+  #noticias h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  #noticias p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
 }

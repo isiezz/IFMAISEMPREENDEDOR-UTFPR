@@ -4,8 +4,6 @@ import Quintal from "../img/Quintal.png";
 import Yogin from "../img/Yogin Life.png";
 import Mecanica from "../img/Mecanica Andrade.png";
 import Caule from "../img/Caule.png";
-
-
 // import styles from "../style/empreendimentos.module.css";
 
 export const Empreendimentos = () => {
