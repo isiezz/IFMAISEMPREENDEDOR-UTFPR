@@ -5,7 +5,7 @@ export const Sobre = () => {
     return (
       <section className="sobre" id="sobre">
         <Container fluid>
-            <Row>
+            <Row className="title">
 
                 <Col md="auto">
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="73" viewBox="0 0 50 73" fill="none">

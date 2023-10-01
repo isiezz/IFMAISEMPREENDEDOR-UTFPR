@@ -206,6 +206,17 @@ span.navbar-text {
   height: 100vh;
 }
 
+#sobre .title {
+  position: relative;
+  z-index: 1;
+}
+
+#sobre img {
+  position: relative;
+  top: -10rem;
+  z-index: 0;
+}
+
 
 /* PDCA e EQUIPE */
 
@@ -360,7 +371,11 @@ ul.brands li.brand-logo img:hover {
   }
 
   #sobre {
-    height: auto;
+    height: 80vh;
+  }
+  
+  #sobre img {
+    top: -5rem;
   }
 
   #noticias {
