@@ -8,26 +8,44 @@ export const Noticias = () => {
         <Row>
           <Col lg={8}>
             <h2>
-              7 filmes inspiradores para empreendedores: <br></br>lições de sucesso na tela!
+              O poder do diagrama de Ishikawa: uma ferramenta essencial para análise de causa e efeito.
             </h2>
             <p>
-              {" "}
-              Os filmes têm o poder mágico de nos transportar para mundos
-              emocionantes, despertar paixões e inspirar empreendimentos na vida
-              real. Em homenagem ao Dia do Empreendedor, que cai no dia 5 de
-              outubro, reunimos uma lista imperdível com sete filmes repletos de
-              lições valiosas para quem sonha em construir seu próprio império.
-              Confira!
+            O Diagrama de Ishikawa, também chamado de diagrama de espinha de peixe ou de causa e efeito, é uma ferramenta essencial para analisar as causas de problemas em ambientes empresariais e de produção. Desenvolvido por Kaoru Ishikawa, este método se tornou fundamental para o controle de qualidade e a melhoria contínua. Ele organiza as diversas causas de um problema em categorias representadas como espinhos em uma espinha de peixe, permitindo uma análise mais aprofundada das causas e seus possíveis efeitos. Isso ajuda a identificar a causa raiz de problemas e implementar melhorias significativas. Pode ser feito da seguinte forma:
             </p>
             <p>
               <ol>
-                <li>A Rede Social (2010)</li>
-                <li>Joy: O Nome do Sucesso (2015)</li>
-                <li>À procura da Felicidade (2006)</li>
-                <li>Steve Jobs (2015)</li>
-                <li>O Menino que Descobriu o Vento (2019)</li>
-                <li>Walt antes de Mickey (2015)</li>
-                <li>Fome de Poder (2016)</li>
+
+                <li>Identificando o problema:</li>
+                <ul>
+                  <li>Definir claramente o problema a ser analisado. Isso é muito importante para garantir que seu diagrama de Ishikawa seja eficaz.</li>
+                </ul>
+
+                <li>Criando a Espinha:</li>
+                <ul>
+                  <li>Desenhe uma linha horizontal para representar a espinha e rotule-a para indicar o problema identificado.</li>
+                </ul>
+
+                <li>Definindo as causas:</li>
+                <ul>
+                  <li>Desenhe linhas perpendiculares a Espinha representando as categorias das causas (pessoas, processos, equipamentos, etc.).</li>
+                </ul>
+
+                <li>Identificação de causas secundárias:</li>
+                <ul>
+                  <li>Para cada categoria, identifique e liste quaisquer causas secundarias que possam estar contribuindo para o problema.</li>
+                </ul>
+
+                <li>Análise detalhada:</li>
+                <ul>
+                  <li>Explore detalhadamente cada causa secundária e utilize ferramentas como o método dos 5 Porquês para aprofundar a sua análise.</li>
+                </ul>
+
+                <li>Priorize:</li>
+                <ul>
+                  <li>Priorize as causas mais impactantes que precisam ser abordadas, considerando os recursos disponíveis e o potencial impacto positivo caso essas causas sejam solucionadas.</li>
+                </ul>
+
               </ol>
             </p>
 
