@@ -313,7 +313,7 @@ ul.brands li.brand-logo img:hover {
 
 #noticias {
   background-color: var(--Background);
-  height: 80vh;
+  height: 100vh;
 }
 
 #noticias div.container {
@@ -349,7 +349,15 @@ ul.brands li.brand-logo img:hover {
   font-weight: 400;
   font-style: normal;
   text-indent: 2rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
+}
+
+#noticias li {
+  text-indent: .5rem;
+}
+
+#noticias ul > li {
+  font-size: 1rem;
 }
 
 /* INCUBADORA */
