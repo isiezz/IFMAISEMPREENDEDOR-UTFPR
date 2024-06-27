@@ -6,35 +6,23 @@ export const Noticias = () => {
     <section className="noticias" id="noticias">
       <Container>
         <Row>
-          <Col lg={8}>
-            <h2>
-            Inovação e Empreendedorismo: Pontal do Paraná brilha em encontro estadual. 
-            </h2>
-            <p>
-            Pontal do Paraná se destacou no Encontro Estadual de Políticas Públicas, que foi realizado em Foz do Iguaçu e foi reconhecido por suas iniciativas inovadoras. O município ficou conhecido por contratar microempreendedores individuais (MEIs) para reformar equipamentos públicos, roçar espaços públicos e fabricar uniformes escolares para o ano letivo de 2024. 
-            </p>
-            <p>
-            Além disso, os pescadores foram capacitados para atuar no Mercado de Peixe de Pontal do Sul. O objetivo do evento, promovido pelo Sebrae Paraná, foi fomentar a troca de experiências entre os municípios e o desenvolvimento de políticas públicas para promover o empreendedorismo.
-            </p>
-            <p>
-            Autoridades locais como o vereador e Presidente do Conselho Municipal de Desenvolvimento Econômico, Ezequiel Tavares Alves, a procuradora da Câmara de Comércio drª Joyce Maus e o agente de desenvolvimento da Sala do Empreendedor, Antônio Cruz, também estiveram presentes.
-            </p>
-            <p>
-            Três dias de palestras e debates abordaram temas chave como acesso a serviços financeiros, compras públicas, educação para o empreendedorismo, inovação, simplificação e desburocratização. Também merecem destaque os workshops práticos e criativos focados na construção de um ambiente de negócios. 
-            </p>
-            <p>
-            A participação ativa de Pontal do Paraná fortalece o compromisso do município em promover a inovação e o empreendedorismo, moldando um futuro promissor para a comunidade local.
-            </p>
+            <Col lg={8}>
+              <h2>Feira do Empreendedor 2023 sediada em Curitiba</h2>
+              <p>A Feira do Empreendedor 2023 em Curitiba, promovida pelo Sebrae/PR de 14 a 17 de setembro, é um evento essencial para empreendedores. Oferece capacitação abrangente em áreas como marketing, finanças e liderança, com palestras de especialistas, incluindo o ex-jogador de futebol Zico. Há experiências em lojas conceito, desafios empresariais e networking.</p>
+              <p>Mais de 600 empresas apresentarão produtos, incluindo inovações como um equipamento de hidrogênio para carros. Haverá quatro lojas interativas: cafeteria, moda, petshop e salão de beleza, com visitas guiadas para entender a operação. O evento oferece rodadas de negócios para pequenas empresas locais.</p>
+              <p>Não perca essa oportunidade de aprendizado e crescimento!</p>
 
-            {/* <div className="text-center">
-                <a href="" target="_blank">
+              {/* <h3>quinta-feira (14) a domingo (17), das 14h às 22h, no Viasoft Experience, em Curitiba</h3> */}
+
+              <div className="text-center">
+                <a href="https://www.sebraepr.com.br/feiradoempreendedor/" target="_blank">
                   <button type="button" class="btn btn-light">saiba mais</button>
                 </a>
-              </div> */}
-          </Col>
-          <Col lg={4}>
-            <img src={noticia} alt="noticia"/>
-          </Col>
+              </div>
+            </Col>
+            <Col lg={4}>
+              <img src={noticia} />
+            </Col>
         </Row>
       </Container>
     </section>

@@ -313,7 +313,7 @@ ul.brands li.brand-logo img:hover {
 
 #noticias {
   background-color: var(--Background);
-  height: 80vh;
+  height: 70vh;
 }
 
 #noticias div.container {
@@ -359,22 +359,24 @@ ul.brands li.brand-logo img:hover {
   height: 1vh;
 }
 
+.void {
+  margin: 0;
+  padding: 0 !important;
+}
 
 
+/* MEDIA QUERIES */
 
-@media (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 768px) {
 
-  #home div.equipe {
-    height: 65vh;
-    top: 5em;
+  .row svg {
+    width: 4em;
+    height: auto;
+    padding-right: 20px;
   }
 
   #sobre {
-    height: 80vh;
-  }
-  
-  #sobre img {
-    top: -5rem;
+    height: 25vh;
   }
 
   #noticias {
@@ -391,5 +393,199 @@ ul.brands li.brand-logo img:hover {
     font-size: 1.2rem;
     line-height: 1.5rem;
   }
+  #pdca, #equipe {
+    margin: 0;
+    padding: 0;
+  }
+}
 
+@media (max-width: 480px) {
+
+  .navbar-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10000;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  nav.navbar {
+    padding: 18px 0;
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    top: 0;
+    left: -250px;
+    z-index: 9999;
+    transition: 0.3s ease-in-out;
+    background-color: var(--Background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  nav.navbar.open {
+    left: 0;
+  }
+
+  nav.navbar a.navbar-brand {
+    width: 30px;
+    margin: 20px 0;
+  }
+
+  nav.navbar .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    color: var(--Chateau-Green);
+    font-family: Bebas Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 0;
+  }
+
+  nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+  nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+    color: #46b45c;
+  }
+
+  span.navbar-text {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+  }
+
+  .instagram-projeto {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .instagram-projeto a img {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+  }
+
+  .navbar-overlay.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  main {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  /* apoio e logo */
+  .apoio .col-lg-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.banner {
+    margin: -2em 0;
+  }
+
+  .apoio .col-lg-1 .utfpr-logo,
+  .apoio .col-lg-1 .sprint-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .apoio .col-lg-1 .utfpr-logo img,
+  .apoio .col-lg-1 .sprint-logo img {
+    width: 30%;
+    height: auto;
+  }
+  
+  /* def */
+  .instagram-projeto {
+    margin-left: 10px;
+  }
+  
+  #home {
+    height: 80vh;
+  }
+
+  #home .align-items-center {
+    margin-top: 15em;
+  }
+
+  #home .equipe {
+    height: 40vh;
+  }
+
+  .title.row {
+    top: -8em;
+    padding: 0;
+  }
+
+  div.col-md-auto {
+    padding: 2px 0 0 10px;
+  }
+
+  svg {
+    width: 1em;
+    height: auto;
+    padding-top: -6em;
+  }
+
+  .row h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .row p {
+    font-size: 1rem;
+  }
+
+  div.col {
+    padding-left: 5px;
+  }
+
+  #pdca, #equipe {
+    margin: 0;
+    padding: 0;
+  }
+
+  #sobre {
+    height: 15vh;
+    width: auto;
+  }
+
+  #empreendimentos {
+    height: 40vh;
+  }
+
+  #noticias {
+    height: 105vh;
+  }
+
+  #noticias h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  #noticias h3 {
+    font-size: 0.8rem;
+  }
+
+  #noticias p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
 }
