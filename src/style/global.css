@@ -366,39 +366,6 @@ ul.brands li.brand-logo img:hover {
 
 
 /* MEDIA QUERIES */
-
-@media (min-width: 480px) and (max-width: 768px) {
-
-  .row svg {
-    width: 4em;
-    height: auto;
-    padding-right: 20px;
-  }
-
-  #sobre {
-    height: 25vh;
-  }
-
-  #noticias {
-    height: 100vh;
-    overflow-y: hidden;
-  }
-
-  #noticias h3 {
-    font-size: 1.2rem;
-    margin: 10px 0;
-  }
-
-  #noticias p {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-  }
-  #pdca, #equipe {
-    margin: 0;
-    padding: 0;
-  }
-}
-
 @media (max-width: 480px) {
 
   .navbar-toggle {
@@ -410,6 +377,7 @@ ul.brands li.brand-logo img:hover {
     border: none;
     cursor: pointer;
     font-size: 24px;
+    color: black;
   }
 
   nav.navbar {
@@ -513,12 +481,27 @@ ul.brands li.brand-logo img:hover {
   }
   
   /* def */
+  .row svg {
+    width: 2em;
+    height: auto;
+    padding-right: 15px;
+    padding-top: 10px;
+  }
+
+  div.col-md-auto {
+    width: 2em;
+  }
+
+  #sobre {
+    height: 25vh;
+  }
+
   .instagram-projeto {
     margin-left: 10px;
   }
   
   #home {
-    height: 80vh;
+    height: 90vh;
   }
 
   #home .align-items-center {
@@ -526,7 +509,13 @@ ul.brands li.brand-logo img:hover {
   }
 
   #home .equipe {
-    height: 40vh;
+    height: 50vh;
+    width: auto;
+  }
+
+  #pdca, #equipe {
+    margin: 0;
+    padding: 0;
   }
 
   .title.row {
@@ -555,6 +544,11 @@ ul.brands li.brand-logo img:hover {
 
   div.col {
     padding-left: 5px;
+    padding-top: 10px;
+  }
+
+  img {
+    overflow: hidden;
   }
 
   #pdca, #equipe {

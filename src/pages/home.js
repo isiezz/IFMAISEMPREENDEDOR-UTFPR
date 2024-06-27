@@ -46,7 +46,6 @@ export const Home = () => {
               <a className="nav-link navbar-link" href="#equipe" onClick={closeNavbar}>Equipe</a>
               <a className="nav-link navbar-link" href="#empreendimentos" onClick={closeNavbar}>Empreendimentos</a>
               <a className="nav-link navbar-link" href="#noticias" onClick={closeNavbar}>Notícias</a>
-              <a className="nav-link navbar-link" href="#incubadora" onClick={closeNavbar}>Incubadora</a>
             </div>
             <span className="navbar-text">
               <div className="instagram-projeto">
